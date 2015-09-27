@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sourse files">
+      <UniqueIdentifier>{512edee3-08be-481f-aba0-1a2e862439d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{9fe6c7c0-80a6-4954-a4e3-f254c3d42ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input parameters">
+      <UniqueIdentifier>{1bb377e2-baa2-486f-bdb0-4ee675439cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library files">
+      <UniqueIdentifier>{52cbfa3a-fecb-4251-a9d0-908ffce39e6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="display.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_data.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize_sym_struct.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="integral_evaluation.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_control.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_in_parameters.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="store_integral.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="symmetry.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="valid.c">
+      <Filter>sourse files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\choldc.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\erfcc.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\factrl.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\gasdev.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\inverse.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\inverse_jac.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\jacobi.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\log_erfcc.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ludcmp.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\nrutil.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\parcylu_my.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ran1.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\lubksb.c">
+      <Filter>library files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data_types.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="integral.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_header.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="read_in_parameters.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\nr.h">
+      <Filter>library files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Thompson.h">
+      <Filter>library files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\nrutil.h">
+      <Filter>library files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input\advanced.asc">
+      <Filter>input parameters</Filter>
+    </None>
+    <None Include="..\doc\data_structure_of_program.doc">
+      <Filter>input parameters</Filter>
+    </None>
+    <None Include="..\doc\manual.doc">
+      <Filter>input parameters</Filter>
+    </None>
+    <None Include="input\parameter_input.asc">
+      <Filter>input parameters</Filter>
+    </None>
+  </ItemGroup>
+</Project>

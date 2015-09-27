@@ -1,0 +1,39 @@
+#HOME=c:
+
+#X=.x
+X=
+
+#BINDIR = $(HOME)\sunspot\bin
+#BINDIR = bin
+
+#LIBDIR = $(HOME)/code/recipes
+LIBDIR = ../lib
+#INCDIR = $(HOME)/code/recipes
+INCDIR = ../lib
+
+CC = gcc
+ 
+#CFLAGS = -O6  -pg -w -g -I$(INCDIR)
+#LFLAGS = -O6  -pg -g -L$(LIBDIR)
+#CFLAGS = -w -static -I$(INCDIR)
+CFLAGS = -w  -I$(INCDIR)
+#LFLAGS = -static -L$(LIBDIR)
+LFLAGS =  -L$(LIBDIR)
+LIBS = -lnr -lm
+
+PROGS = ExtSym
+
+OBJS  = get_data.o valid.o symmetry.o sample.o store_integral.o display.o initialize_sym_struct.o integral_evaluation.o read_in_parameters.o main_control.o
+
+.c.o:
+	$(CC) -c  $(CFLAGS) $<
+
+main_control$X : $(OBJS)
+	$(CC) $(LFLAGS) -o $@ $(OBJS) $(LIBS) 
+
+clean :
+	rm -f *.o *~ .*~
+
+
+
+
