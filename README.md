@@ -1,4 +1,4 @@
-See http://www.markvardsen.net/projects/ExtSym/main.html. Here Open Sourced the ExtSym except for the 
+See http://www.markvardsen.net/projects/ExtSym/main.html. Here Open Sourced the ExtSym code except for the 
 Numerical Recipes routines used by this code.
 
 To build the source code
