@@ -1,5 +1,5 @@
 See http://www.markvardsen.net/projects/ExtSym/main.html. Here Open Sourced the ExtSym code except for the 
-Numerical Recipes routines used by this code.
+Numerical Recipes routines used by this code. Create Zenodo DOI for code see Release tab for this repository.
 
 To build the source code
 ========================
