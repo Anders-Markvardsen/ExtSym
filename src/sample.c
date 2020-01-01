@@ -717,6 +717,8 @@ const double MY_PI = acos(-1);
 
 if (multiplet >= 1)
 {
+	// This expression is derived from Eq. (18) in https://aip.scitation.org/doi/abs/10.1063/1.1835216
+	
 	return -0.5*log(2*MY_PI) + multiplet*log(sqrt(Variance)/Ave_Int) - Average*Average/(2*Variance) 
 		+ ParCylU(multiplet+0.5, sqrt(Variance)/Ave_Int - Average/sqrt(Variance), 0.000001);
 }
